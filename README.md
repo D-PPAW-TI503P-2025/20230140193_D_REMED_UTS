@@ -195,10 +195,14 @@ npm start
   | :---: | :---: |
   | ![Admin Pinjam Denied](Tugas%20MD/SS/ADMIN%20MEMINJAM%20BUKU.jpeg) | ![User CRUD Denied](Tugas%20MD/SS/AKSES%20USER%20DITOLAK.jpeg) |
 
-- **History Logs**
-  | Riwayat Peminjaman (Admin) | Riwayat Peminjaman (User) |
+- **History Logs (UI & API Testing)**
+  | Riwayat Peminjaman (Admin - UI) | Riwayat Peminjaman (User - UI) |
   | :---: | :---: |
-  | ![Log Admin](Tugas%20MD/SS/RIWAYAT%20PEMINJAMAN%20ADMIN.jpeg) | ![Log User](Tugas%20MD/SS/LIHAT%20PEMINJAMAN%20USER.jpeg) |
+  | ![Log Admin UI](Tugas%20MD/SS/RIWAYAT%20PEMINJAMAN%20ADMIN.jpeg) | ![Log User UI](Tugas%20MD/SS/LIST%20PEMINJAAN%20USER.jpeg) |
+
+  | Admin History (Postman) | User History (Postman) |
+  | :---: | :---: |
+  | ![Admin History API](Tugas%20MD/SS/LIHAT%20DAFTAR%20PEMINJAMAN%20ADMIN.jpeg) | ![User History API](Tugas%20MD/SS/LIHAT%20PEMINJAMAN%20USER.jpeg) |
 
 ### 3. Struktur Database (MySQL)
 #### Tabel & Skema
