@@ -172,9 +172,9 @@ npm start
 | :---: | :---: | :---: |
 | ![Daftar Buku User](Tugas%20MD/SS/DAFTAR%20BUKU%20USER.jpeg) | ![Pinjam Buku](Tugas%20MD/SS/HALAMAN%20PINJAM%20BUKU%20USER.jpeg) | ![Riwayat User](Tugas%20MD/SS/LIST%20PEMINJAAN%20USER.jpeg) |
 
-| Daftar Buku (Admin) | Kelola Buku (Admin) |
-| :---: | :---: |
-| ![Daftar Buku Admin](Tugas%20MD/SS/DAFTAR%20BUKU%20ADMIN.jpeg) | ![Kelola Admin](Tugas%20MD/SS/KELOLA%20BUKU%20ADMIN.jpeg) |
+| Daftar Buku (Admin) | Kelola Buku (Admin) | Riwayat Peminjaman (Admin) |
+| :---: | :---: | :---: |
+| ![Daftar Buku Admin](Tugas%20MD/SS/DAFTAR%20BUKU%20ADMIN.jpeg) | ![Kelola Admin](Tugas%20MD/SS/KELOLA%20BUKU%20ADMIN.jpeg) | ![Riwayat Admin](Tugas%20MD/SS/RIWAYAT%20PEMINJAMAN%20ADMIN.jpeg) |
 
 ### 2. Dokumentasi Test API (Postman/Thunder Client)
 #### Endpoints Testing
@@ -195,11 +195,7 @@ npm start
   | :---: | :---: |
   | ![Admin Pinjam Denied](Tugas%20MD/SS/ADMIN%20MEMINJAM%20BUKU.jpeg) | ![User CRUD Denied](Tugas%20MD/SS/AKSES%20USER%20DITOLAK.jpeg) |
 
-- **History Logs (UI & API Testing)**
-  | Riwayat Peminjaman (Admin - UI) | Riwayat Peminjaman (User - UI) |
-  | :---: | :---: |
-  | ![Log Admin UI](Tugas%20MD/SS/RIWAYAT%20PEMINJAMAN%20ADMIN.jpeg) | ![Log User UI](Tugas%20MD/SS/LIST%20PEMINJAAN%20USER.jpeg) |
-
+- **History Logs (API Testing - Postman)**
   | Admin History (Postman) | User History (Postman) |
   | :---: | :---: |
   | ![Admin History API](Tugas%20MD/SS/LIHAT%20DAFTAR%20PEMINJAMAN%20ADMIN.jpeg) | ![User History API](Tugas%20MD/SS/LIHAT%20PEMINJAMAN%20USER.jpeg) |
