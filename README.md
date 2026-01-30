@@ -144,10 +144,42 @@ npm start
 ## Dokumentasi Screenshot
 
 ### 1. Tampilan Web Application
-*(Foto akan ditambahkan di sini)*
+#### Antarmuka Pengguna (Frontend)
+| Halaman Beranda | Halaman Login | Halaman Registrasi |
+| :---: | :---: | :---: |
+| ![Beranda](Tugas%20MD/SS/HALAMAN%20BERANDA.jpeg) | ![Login](Tugas%20MD/SS/HALAMAN%20LOGIN.jpeg) | ![Registrasi](Tugas%20MD/SS/HALAMAN%20REGISTRASI.jpeg) |
+
+| Daftar Buku (User) | Pinjam Buku (User) | Riwayat Pinjam (User) |
+| :---: | :---: | :---: |
+| ![Daftar Buku User](Tugas%20MD/SS/DAFTAR%20BUKU%20USER.jpeg) | ![Pinjam Buku](Tugas%20MD/SS/HALAMAN%20PINJAM%20BUKU%20USER.jpeg) | ![Riwayat User](Tugas%20MD/SS/LIST%20PEMINJAAN%20USER.jpeg) |
+
+| Daftar Buku (Admin) | Kelola Buku (Admin) |
+| :---: | :---: |
+| ![Daftar Buku Admin](Tugas%20MD/SS/DAFTAR%20BUKU%20ADMIN.jpeg) | ![Kelola Admin](Tugas%20MD/SS/KELOLA%20BUKU%20ADMIN.jpeg) |
 
 ### 2. Dokumentasi Test API (Postman/Thunder Client)
-*(Foto akan ditambahkan di sini)*
+#### Endpoints Testing
+- **Get All Books & By ID**
+  ![Get All](Tugas%20MD/SS/GET%20BUKU.jpeg)
+  ![Get ID](Tugas%20MD/SS/GET%20BUKU%20BY%20ID.jpeg)
+
+- **Admin Operations (Add, Edit, Delete)**
+  ![Tambah](Tugas%20MD/SS/TAMBAH%20BUKU.jpeg)
+  ![Edit](Tugas%20MD/SS/EDIT%20BUKU.jpeg)
+  ![Hapus](Tugas%20MD/SS/HAPUS%20BUKU.jpeg)
+
+- **User Operations (Borrow & Location)**
+  ![Pinjam](Tugas%20MD/SS/PINJAM%20BUKU%20USER.jpeg)
+  ![Akses Ditolak](Tugas%20MD/SS/AKSES%20USER%20DITOLAK.jpeg)
+
+- **History Logs**
+  ![Log Admin](Tugas%20MD/SS/LIHAT%20DAFTAR%20PEMINJAMAN%20ADMIN.jpeg)
 
 ### 3. Struktur Database (MySQL)
-*(Foto akan ditambahkan di sini)*
+#### Tabel & Skema
+| Database Buku | Database Peminjaman | Database User |
+| :---: | :---: | :---: |
+| ![Db Buku](Tugas%20MD/SS/DATABASE%20BUKU.jpeg) | ![Db Pinjam](Tugas%20MD/SS/DATABASE%20PEMINJAMAN.jpeg) | ![Db User](Tugas%20MD/SS/DATABASE%20USER.jpeg) |
+
+#### Sinkronisasi Sequelize
+![Sequelize](Tugas%20MD/SS/SEQUELIZE.jpeg)
