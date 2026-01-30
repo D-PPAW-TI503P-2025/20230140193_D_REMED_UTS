@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Desember221204",
+    "database": "perpustakaangeo",
+    "host": "127.0.0.1",
+    "port": 3309,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "Desember221204",
+    "database": "perpustakaangeo_test",
+    "host": "127.0.0.1",
+    "port": 3309,
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "Desember221204",
+    "database": "perpustakaangeo",
+    "host": "127.0.0.1",
+    "port": 3309,
+    "dialect": "mysql"
+  }
+}
