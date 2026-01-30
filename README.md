@@ -78,11 +78,13 @@ Aplikasi menggunakan Header untuk simulasi role:
 | `POST` | `/api/books` | Menambahkan buku baru |
 | `PUT` | `/api/books/:id` | Memperbarui data buku |
 | `DELETE` | `/api/books/:id` | Menghapus buku dari sistem |
+| `GET` | `/api/borrow` | Melihat semua riwayat peminjaman (Admin) |
 
 ### 3. User Endpoints (Header `x-user-role: user` & `x-user-id: [id]`)
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
 | `POST` | `/api/borrow` | Meminjam buku dan mencatat lokasi |
+| `GET` | `/api/borrow/my` | Melihat riwayat peminjaman milik sendiri |
 
 **Body Payload `POST /api/borrow`**:
 ```json
@@ -119,7 +121,7 @@ Aplikasi menggunakan Header untuk simulasi role:
 
 ### Menjalankan Server
 ```bash
-npm run dev
+npm start
 # Server akan berjalan di http://localhost:5000
 ```
 
