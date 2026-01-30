@@ -20,6 +20,25 @@ Mengevaluasi kemampuan praktis dalam:
 
 ---
 
+## Business Logic & Rule Validation
+
+Aplikasi ini menerapkan beberapa aturan bisnis penting untuk menjaga integritas data dan hak akses:
+
+1. **Role-Based Access Control (RBAC)**:
+   - **Admin**: Memiliki akses penuh untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada data buku. Admin juga dapat melihat seluruh riwayat peminjaman dari semua user.
+   - **User**: Hanya dapat melihat buku dan melakukan peminjaman. **User dilarang mengakses API CRUD buku**. Jika mencoba, sistem akan mengembalikan status `403 Forbidden`.
+   
+2. **Pembatasan Peminjaman Admin**:
+   - Akun dengan role `admin` **tidak diperbolehkan meminjam buku**. Fitur peminjaman hanya diperuntukkan bagi user biasa. Jika admin mencoba meminjam, sistem akan menolak request tersebut.
+
+3. **Validasi Geolocation**:
+   - Setiap transaksi peminjaman wajib menyertakan koordinat lokasi (Latitude & Longitude) yang valid untuk keperluan tracking.
+
+4. **Manajemen Stok**:
+   - Stok buku otomatis berkurang setiap kali peminjaman berhasil dilakukan.
+
+---
+
 ## Fitur Utama
 - **Public Access**: Melihat daftar buku dan detail buku.
 - **Admin Mode**: Manajemen data buku (Tambah, Edit, Hapus).
@@ -170,10 +189,16 @@ npm start
 
 - **User Operations (Borrow & Location)**
   ![Pinjam](Tugas%20MD/SS/PINJAM%20BUKU%20USER.jpeg)
-  ![Akses Ditolak](Tugas%20MD/SS/AKSES%20USER%20DITOLAK.jpeg)
+  
+- **Role-Based Access & Logic Validation**
+  | Admin Tidak Bisa Pinjam | User Dilarang CRUD |
+  | :---: | :---: |
+  | ![Admin Pinjam Denied](Tugas%20MD/SS/ADMIN%20MEMINJAM%20BUKU.jpeg) | ![User CRUD Denied](Tugas%20MD/SS/AKSES%20USER%20DITOLAK.jpeg) |
 
 - **History Logs**
-  ![Log Admin](Tugas%20MD/SS/LIHAT%20DAFTAR%20PEMINJAMAN%20ADMIN.jpeg)
+  | Riwayat Peminjaman (Admin) | Riwayat Peminjaman (User) |
+  | :---: | :---: |
+  | ![Log Admin](Tugas%20MD/SS/RIWAYAT%20PEMINJAMAN%20ADMIN.jpeg) | ![Log User](Tugas%20MD/SS/LIHAT%20PEMINJAMAN%20USER.jpeg) |
 
 ### 3. Struktur Database (MySQL)
 #### Tabel & Skema
