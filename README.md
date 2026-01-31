@@ -172,9 +172,9 @@ npm start
 | :---: | :---: | :---: |
 | ![Daftar Buku User](Tugas%20MD/SS/DAFTAR%20BUKU%20USER.jpeg) | ![Pinjam Buku](Tugas%20MD/SS/HALAMAN%20PINJAM%20BUKU%20USER.jpeg) | ![Riwayat User](Tugas%20MD/SS/LIST%20PEMINJAAN%20USER.jpeg) |
 
-| Daftar Buku (Admin) | Kelola Buku (Admin) | Riwayat Peminjaman (Admin) |
-| :---: | :---: | :---: |
-| ![Daftar Buku Admin](Tugas%20MD/SS/DAFTAR%20BUKU%20ADMIN.jpeg) | ![Kelola Admin](Tugas%20MD/SS/KELOLA%20BUKU%20ADMIN.jpeg) | ![Riwayat Admin](Tugas%20MD/SS/RIWAYAT%20PEMINJAMAN%20ADMIN.jpeg) |
+| Daftar Buku (Admin) | Tambah Buku (Admin) | Kelola Buku (Admin) | Riwayat Peminjaman (Admin) |
+| :---: | :---: | :---: | :---: |
+| ![Daftar Buku Admin](Tugas%20MD/SS/DAFTAR%20BUKU%20ADMIN.jpeg) | ![Tambah Buku Admin](Tugas%20MD/SS/TAMBAH%20BUKU%20ADMIN.jpeg) | ![Kelola Admin](Tugas%20MD/SS/KELOLA%20BUKU%20ADMIN.jpeg) | ![Riwayat Admin](Tugas%20MD/SS/RIWAYAT%20PEMINJAMAN%20ADMIN.jpeg) |
 
 ### 2. Dokumentasi Test API (Postman/Thunder Client)
 #### Endpoints Testing
